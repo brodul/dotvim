@@ -16,23 +16,6 @@ set guioptions-=r
 "display only file name in tabs
 set guitablabel=%t
 
-" tab navigation like firefox
-:nmap <C-S-tab> :tabprevious<cr>
-:nmap <C-tab> :tabnext<cr>
-:map <C-S-tab> :tabprevious<cr>
-:map <C-tab> :tabnext<cr>
-:imap <C-S-tab> <ESC>:tabprevious<cr>i
-:imap <C-tab> <ESC>:tabnext<cr>i
-:nmap <C-t> :tabnew<cr>
-:imap <C-t> <ESC>:tabnew<cr>
-:imap <C-tab> <ESC>:tabnext<cr>i
-:nmap <C-w> :tabclose<cr>
-:imap <C-w> <ESC>:tabclose<cr>
-
-" on/off search hl
-map <F3> :set hlsearch!<CR>
-imap <F3> <ESC>:set hlsearch!<CR>a
-
 " use ljust
 "vmap <F5> !ljust<CR>
 

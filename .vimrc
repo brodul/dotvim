@@ -63,3 +63,11 @@ let g:syntastic_auto_jump=1
 " ropevim
 let g:ropevim_vim_completion=1
 let g:ropevim_extended_complete=1
+
+" tab navigation on function keys
+:map <F4> :tabnext<cr>
+:map <F3> :tabprevious<cr>
+:map <F2> :tabnew<cr>
+:imap <F4> <ESC>:tabnext<cr>i
+:imap <F3> <ESC>:tabprevious<cr>i
+:imap <F2> <ESC>:tabnew<cr>
