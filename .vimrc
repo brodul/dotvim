@@ -65,6 +65,9 @@ let g:syntastic_auto_jump=1
 let g:ropevim_vim_completion=1
 let g:ropevim_extended_complete=1
 
+" leader key remap to ,
+let mapleader=","
+
 " tab navigation on function keys
 :map <F4> :tabnext<cr>
 :map <F3> :tabprevious<cr>
