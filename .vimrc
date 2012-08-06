@@ -32,6 +32,10 @@ autocmd BufRead,BufNewFile *.jinja2 :set ft=htmljinja
 autocmd FileType xhtml,html set tabstop=2|set shiftwidth=2|set noexpandtab
 autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab autoindent
 
+" Autostart nerd tree
+autocmd VimEnter * NERDTree
+autocmd VimEnter * :wincmd l
+
 " remap omnicompletion
 inoremap <Nul> <C-x><C-o>
 
