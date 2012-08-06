@@ -79,3 +79,7 @@ let mapleader=","
 :imap <F4> <ESC>:tabnext<cr>i
 :imap <F3> <ESC>:tabprevious<cr>i
 :imap <F2> <ESC>:tabnew<cr>
+
+" on/off search hl
+map <F1> :set hlsearch!<CR>
+imap <F1> <ESC>:set hlsearch!<CR>a
