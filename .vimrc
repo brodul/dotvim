@@ -85,4 +85,4 @@ map <F1> :set hlsearch!<CR>
 imap <F1> <ESC>:set hlsearch!<CR>a
 
 " set clipboard
-set clipboard=unnamed
+set clipboard=unnamedplus
