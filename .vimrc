@@ -1,4 +1,4 @@
-" vim: set fenc=utf-8 tw=80 sw=2 sts=2 et foldmethod=marker :
+ vim: set fenc=utf-8 tw=80 sw=2 sts=2 et foldmethod=marker :
 set nocompatible
 
 " use pathogen
@@ -26,8 +26,8 @@ autocmd FileType mako set filetype=mako.html.js
 autocmd FileType rst set spell
 autocmd BufRead *.less set filetype=less
 autocmd BufRead,BufNewFile *.zcml :set ft=xml
-autocmd BufRead,BufNewFile *.jinja :set ft=htmljinja
-autocmd BufRead,BufNewFile *.jinja2 :set ft=htmljinja
+autocmd BufRead,BufNewFile *.jinja :set ft=htmljinja.html
+autocmd BufRead,BufNewFile *.jinja2 :set ft=htmljinja.html
 "|set expandtab 
 autocmd FileType xhtml,html set tabstop=2|set shiftwidth=2|set noexpandtab
 autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab autoindent
