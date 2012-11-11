@@ -1,4 +1,4 @@
- vim: set fenc=utf-8 tw=80 sw=2 sts=2 et foldmethod=marker :
+" vim: set fenc=utf-8 tw=80 sw=2 sts=2 et foldmethod=marker :
 set nocompatible
 
 " use pathogen
